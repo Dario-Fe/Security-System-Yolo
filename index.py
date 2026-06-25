@@ -6,8 +6,8 @@ from collections import deque
 import numpy as np
 
 # ===== CONFIGURAZIONE =====
-TELEGRAM_TOKEN = "8734596249:AAFs9m1Ss_qan2MkB9PfDbunwcqvBhybdEA"
-TELEGRAM_CHAT_ID = "643202321"
+TELEGRAM_TOKEN = "codice token"
+TELEGRAM_CHAT_ID = "codice ID"
 
 # Soglia di confidenza per il riconoscimento
 CONFIDENCE_THRESHOLD = 0.4  # Leggermente più basso per essere più sensibile
