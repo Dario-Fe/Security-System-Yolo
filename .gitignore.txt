@@ -1,0 +1,136 @@
+# ============================================
+# PYTHON
+# ============================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.pyd
+*.pyo
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# Environments
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.env
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.user
+
+# ============================================
+# PROGETTO SPECIFICO
+# ============================================
+
+# Modelli PyTorch (non necessari per l'esecuzione)
+*.pt
+*.pth
+*.pth.tar
+
+# File di log
+*.log
+security_log.csv
+
+# File di configurazione locali (contenenti token)
+config_local.py
+*.local.py
+local_settings.py
+
+# Screenshot e immagini di test
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+
+# File temporanei
+*.tmp
+*.temp
+*.cache
+
+# File video di test
+*.mp4
+*.avi
+*.mov
+
+# ============================================
+# SISTEMA OPERATIVO
+# ============================================
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Linux
+.directory
+*.pid
+*.lock
+
+# ============================================
+# GIT
+# ============================================
+
+# Local .gitignore override
+*.gitignore.local
