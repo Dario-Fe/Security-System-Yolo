@@ -49,6 +49,8 @@ Un sistema di sicurezza basato su intelligenza artificiale che:
 ```bash
 git clone https://github.com/tuo-username/security-system-yolo.git
 cd security-system-yolo
+```
+
 
 ## Crea l'ambiente virtuale
 
